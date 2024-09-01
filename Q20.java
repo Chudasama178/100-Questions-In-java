@@ -11,6 +11,7 @@ public class Q20 {
         int b = sc.nextInt();
         int ans = pow(a,b);
         System.out.println("Power of a^b is : "+ans);
+        sc.close();
     }
     public static int pow(int a,int b){
         if(b==0){

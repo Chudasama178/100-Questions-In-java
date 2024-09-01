@@ -11,6 +11,7 @@ public class Q10 {
                 System.out.print(i+" ");
             }
         }
+        sc.close();
     }
     public static boolean isPrime(int n){
         int count = 0;

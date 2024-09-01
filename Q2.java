@@ -11,7 +11,7 @@ public class Q2 {
         boolean isPalindrone = true;
         int length = newStr.length();
 
-        for (int i = 0; i < length / 2; i++) {
+        for (int i = 0; i < length / 2;) {
             if (newStr.charAt(i) != newStr.charAt(length - i- 1)) {
                 isPalindrone = false;
             }

@@ -13,5 +13,6 @@ public class Q7 {
             second=next;
         }
         System.out.println();
+        sc.close();
     }
 }
